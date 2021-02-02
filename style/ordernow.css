@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.logo {
+  position: absolute;
+  width: 205px;
+  left: 76%;
+  top: -4%;
+  margin-top: 30px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+header {
+  margin-top: 18px;
+  margin-left: 48px;
+}
+
+.parent_li {
+  display: flex;
+  font-family: "Quicksand";
+  font-size: 20px;
+  font-weight: bold;
+}
+a:hover {
+  color: rgba(43, 51, 0, 0.74);
+}
+.main_components {
+  margin-right: 87px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.order {
+  color: #ad40009c;
+}
+.form{
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+form{
+  margin-bottom: 158px;
+}
+input{
+  font-size: 24px;
+  font-family: 'Quicksand';
+  font-weight: bold;
+  color: black;
+  width: 299.975px;
+  height: 45.685px;
+  font-size: 24px;
+  font-family: 'Quicksand';
+  font-weight: bold;
+  color: black;
+  width: 324.975px;
+  height: 52.685px;
+  margin-top: 38px;
+  margin-left: 33px;
+  margin-right: 49px;
+  outline: none;
+  padding: 10px;
+  border-radius: 9.5px;
+  border: 2px solid black;
+  background-color: #B9B9B9;
+}
+select{
+  background-color: #B9B9B9;
+  border: 2px solid black;
+  outline: none;
+  width: 324.975px;
+  height: 52.685px;
+  font-family: 'Quicksand';
+  font-weight: bold;
+  color: black;
+  font-size: 24px;
+  margin-left: 33px;
+  margin-right: 49px;
+  padding: 6px;
+  border-radius: 9.5px;
+}
+input::placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 1;
+}
+
+input:-ms-input-placeholder {
+  color: rgb(0, 0, 0);
+}
+
+input::-ms-input-placeholder {
+  color: rgb(0, 0, 0);
+}
+select option{
+  background-color: white;
+  font-family: 'Quicksand';
+}
+.main_btn{
+  width: 168px;
+  height: 44.5px;
+  border-radius: 9.5px;
+  border: 2px solid black;
+  background-color: #B9B9B9;
+  font-family: 'Quicksand';
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 112px;
+  cursor: pointer;
+}
+.btn{
+
+  display: flex;
+  justify-content: center;
+}

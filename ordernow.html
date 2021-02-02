@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="style/ordernow.css"/>
+  </head>
+  <body>
+    <header>
+      <nav class="nav_main">
+        <ul class="parent_li">
+          <li class="main_components">
+            <a href="index.html"><span class="home"> Home</span></a>
+          </li>
+          <li class="main_components">
+            <a href="learnmore.html"
+              ><span class="learnmore"> Learn More</span
+            ></a>
+          </li>
+          <li class="main_components">
+            <a href="ordernow.html"><span class="order"> Order Now</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="form">
+
+      <form action="backend.php" autocomplete="off">
+        <input type="text" placeholder="Name" required>
+        <input type="text" placeholder="Address 2" required><br>
+        <input type="email" placeholder="Email" required>
+        <input type="number" placeholder="Phone Number" required><br>
+        <input type="text" placeholder="Address 1" required>
+        <select name="dish">
+          <option value="dish" class="dish" disabled selected hidden/>Choose A Dish</option>
+          <option value="pizza">Pizza</option>
+          <option value="bottarga">Bottarga</option>
+          <option value="lasagna">Lasagna</option>
+          <option value="fiorentina_steak">Fiorentina Steak</option>
+          <option value="polenta">Polenta</option>
+          <option value="ossobuco">Ossobuco</option>
+          <option value="risotto">Risotto</option>
+          <option value="carbonara">Carbonara</option>
+          <option value="truffles">Truffles</option>
+          <option value="arancini_&_supplì">Arancini & Supplì</option>
+          <option value="digestivo">Digestivo</option>
+        </select>
+      </form>
+    </div>
+    <a class="btn" href="afterbuy.html"><button class="main_btn">Order</button></a>
+      <a href="index.html"><img src="img/logo.png" alt="" class="logo"/></a>
+  </body>
+</html>
